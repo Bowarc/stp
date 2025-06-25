@@ -1,0 +1,14 @@
+[package]
+name = "stp"
+version = "0.1.0"
+edition = "2021"
+description = "Dead simple sync thread pool in rust"
+repository = "https://github.com/bowarc/stp"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossbeam = "0.8.4"
+log = "0.4.20"
+parking_lot = "0.12.3"
