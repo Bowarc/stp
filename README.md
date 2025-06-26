@@ -2,7 +2,7 @@
 
 ### Documentation
 
-The documentation for this crate can be found [here](https://bowarc.github.io/stp)
+The documentation for this crate can be found [here](https://bowarc.github.io/stp/stp)
 
 #### Use example:
 
