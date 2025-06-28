@@ -25,7 +25,7 @@ let pool_handle_2 = pool_handle_1.clone();
 let _pool_handle_3 = pool_handle_1.clone();
 let _pool_handle_4 = _pool_handle_3.clone();
 
-// This will send the closure to a thread to be ran as soon as possible, non-blocking for the main thread.
+// This will send the closure to a thread to be ran as soon as possible, non-blocking for the current thread.
 // The future received from pool.run is used to get the output of the closure.
 let future_1 = pool_handle_1.run(|| {
     String::from("Hi")
